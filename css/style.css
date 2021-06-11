@@ -41,6 +41,6 @@ aside {
 main {
   padding-top: 50px;
   transform: translateX(-300px);
-  /* width: calc(100% - 300px); */
+  width: calc(100% - 300px);
   overflow: auto;
 }

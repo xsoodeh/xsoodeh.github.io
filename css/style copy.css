@@ -1,19 +1,19 @@
 @font-face {
   font-family: "IranSans";
-  src: url("../fonts/IRANSansWeb.woff") format("woff");
+  src: url("/fonts/IRANSansWeb.woff") format("woff");
 }
+
 @font-face {
   font-family: "IranSansBold";
-  src: url("../fonts/IRANSansWeb_Bold.woff") format("woff");
+  src: url("/fonts/IRANSansWeb_Bold.woff") format("woff");
 }
+
 * {
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
 body {
   font-family: "IranSans";
 }
@@ -41,6 +41,13 @@ aside {
   /* overflow: hidden; */
 }
 
+main {
+  padding-top: 50px;
+  /* transform: translateX(-300px); */
+  width: calc(100% - 300px);
+  overflow: auto;
+}
+
 .social-icons {
   display: flex;
   list-style: none;
@@ -50,6 +57,8 @@ aside {
   line-height: 1;
   margin-left: 3px;
   margin-bottom: 8px;
+  
+  
 }
 
 .social-icons li {
@@ -58,13 +67,5 @@ aside {
 
 .social-icons li a {
   /* font-size: 0.95em; */
+  
 }
-
-main {
-  padding-top: 50px;
-  /* transform: translateX(-300px); */
-  width: calc(100% - 300px);
-  overflow: auto;
-}
-
-/*# sourceMappingURL=style.css.map */

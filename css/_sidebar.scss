@@ -1,0 +1,33 @@
+aside {
+    /* transition: background 0.15s ease-in-out, transform 0.15s ease-in-out, */
+    /* border-color 0.15s linear; */
+    padding: 30px 20px;
+    width: 300px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* will-change: transform; */
+    /* transform: translateX(-300px); */
+    /* border-left: 1px solid transparent; */
+    /* overflow: hidden; */
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150px;
+    line-height: 1;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+
+.social-icons li {
+    /* font-size: 1px; */
+}
+
+.social-icons li a {
+    /* font-size: 0.95em; */
+}
